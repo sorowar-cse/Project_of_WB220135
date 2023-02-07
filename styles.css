@@ -169,8 +169,8 @@ text-align: center;
 
 /* about section starts here */
 
-#abt {
-  scroll-margin-top: 20px;
+#abt, #allservices, #testi, #advisor {
+  scroll-margin-top: 100px;
 }
 
 .about {
