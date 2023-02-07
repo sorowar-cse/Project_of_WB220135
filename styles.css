@@ -169,6 +169,10 @@ text-align: center;
 
 /* about section starts here */
 
+#abt {
+  scroll-margin-top: 20px;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
