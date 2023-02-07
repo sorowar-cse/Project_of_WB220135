@@ -1,13 +1,12 @@
 # M2V_Web_Basic_Batch_01
 # Project Submission by ``ID: WB220135``
+**``Live Link:``** [Open Sorowar's Project](https://wb220135.netlify.app/)
 
 
-
-Other Details-
+**Other Details-**
 <hr>
-# ``Author:``
 
-
+# Author:
 
 <img src="https://avatars.githubusercontent.com/u/76944781?v=4" style=" width: 155px; height: 175px; border: 2px solid red; border-radius: 25px" >
 
