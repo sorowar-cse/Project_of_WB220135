@@ -280,8 +280,8 @@ textarea:focus {
 
 /* Footer code  */
 .footer {
-  display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
+/*   display: grid;
+  grid-template-columns: 3fr 5fr 3fr; */
   padding: 50px 0px 0px 0px;
   border-top: 2px solid #69798c;
 }
