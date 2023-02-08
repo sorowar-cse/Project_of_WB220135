@@ -28,7 +28,7 @@ p {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   color: #69798c;
 }
 
@@ -119,8 +119,7 @@ nav ul li a {
   width: 50%;
 }
 
-.hero .left h2,
-.up h2 {
+.hero .left h2 {
   font-size: 4.1rem;
   font-weight: 600;
   line-height: 1.2;
@@ -158,19 +157,27 @@ nav ul li a {
 
 
 /* Our Achievements Section starts here */
-
-.up,
-.down {
+.counter {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
 }
 
-.up {
-  margin-top: 10px;
+.counter h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #f66d1d;
 }
 
-.down {
-  margin-top: -25px;
+.counter .text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #69798c;
 }
 
 /* Our Achievements Section ends here */
@@ -199,8 +206,7 @@ nav ul li a {
 }
 
 .text4 {
-  font-size: larger;
-  color: #963c08;
+  color: #aada59;
 }
 
 /* Different colors for different text in a single line of text ends here */
@@ -688,9 +694,9 @@ textarea:focus {
     width: 100%;
   }
 
-  #team {
+  #team, .counter {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   /* .card-body {
