@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&display=swap");
 
+/* For All html  starts here*/
 * {
   margin: 0;
   padding: 0;
@@ -61,6 +62,12 @@ a:hover {
   color: #f66d1d;
 }
 
+/* For All html  ends here*/
+
+
+
+
+
 /* Header css code start here */
 .header {
   display: flex;
@@ -95,10 +102,13 @@ nav ul li a {
   text-align: center;
 }
 
-/* Header css code End here */
+/* Header css code Ends here */
 
-/* Hero Section start here */
 
+
+
+
+/* Hero Section starts here */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -109,7 +119,8 @@ nav ul li a {
   width: 50%;
 }
 
-.hero .left h2, .up h2 {
+.hero .left h2,
+.up h2 {
   font-size: 4.1rem;
   font-weight: 600;
   line-height: 1.2;
@@ -121,34 +132,9 @@ nav ul li a {
   border-radius: 50%;
 }
 
-.up, .down {
-  display: flex;
-  justify-content: space-between;
-}
-
 .ceo {
   margin-top: -50px;
-text-align: center;
-}
-
-.down {
-  margin-top: -25px;
-}
-.text {
-  color: #1db9f6;
-}
-.text1 {
-
-  color: #f66d1d;
-}
-
-.text4 {
-  font-size: larger;
-  color: #963c08;
-}
-
-.text2 {
-  color: #008fd4;
+  text-align: center;
 }
 
 .right {
@@ -165,11 +151,69 @@ text-align: center;
   font-size: 2.2rem;
 }
 
-/* hero section end here */
+/* Hero Section ends here */
 
-/* about section starts here */
 
-#abt, #allservices, #testi, #advisor {
+
+
+
+/* Our Achievements Section starts here */
+
+.up,
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.up {
+  margin-top: 10px;
+}
+
+.down {
+  margin-top: -25px;
+}
+
+/* Our Achievements Section ends here */
+
+
+
+
+
+
+/* Different colors for different text in a single line of text starts here */
+.text {
+  color: #1db9f6;
+}
+
+.text1 {
+
+  color: #f66d1d;
+}
+
+.text2 {
+  color: #008fd4;
+}
+
+.text3 {
+  color: #69798c;
+}
+
+.text4 {
+  font-size: larger;
+  color: #963c08;
+}
+
+/* Different colors for different text in a single line of text ends here */
+
+
+
+
+
+/* About section starts here */
+#abt,
+#allservices,
+#testi,
+#advisor {
   scroll-margin-top: 100px;
 }
 
@@ -179,10 +223,57 @@ text-align: center;
   gap: 30px;
 }
 
-/* about section ends here */
+/* About section ends here */
 
-/* support section start here */
 
+
+
+
+/* Our services section starts here */
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.services .service {
+  width: 100%;
+  height: 810px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.services .service img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.services .service .service-body {
+  margin-top: 10px;
+}
+
+.services .service .service-body h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f66d1d;
+}
+
+.services .service .service-body p {
+  font-size: 1.2rem;
+  color: #69798c;
+}
+
+/* Our services section ends here */
+
+
+
+
+
+
+/* Testimonial section starts here */
 .testimonial {
   display: flex;
   justify-content: space-between;
@@ -222,13 +313,66 @@ text-align: center;
 
 }
 
-/* support section end here */
-
-/* contact section start here */
-.text3 {
-  color: #69798c;
+.customer {
+  margin-left: 25px;
+  color: bisque;
 }
 
+/* Testimonial section ends here */
+
+
+
+/* Team/ Advisors section starts here */
+#team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+#team .card {
+  width: 100%;
+  height: 550px;
+  background-color: #222323;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#team .card img {
+  width: 100%;
+}
+
+#team .card .card-body {
+  margin-top: 20px;
+}
+
+#team .card .card-body h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f66d1d;
+}
+
+#team .card .card-body p {
+  /* margin-top: -5px; */
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+#team i {
+  font-size: 1.5rem;
+  color: #008fd4;
+  margin: 0 10px;
+}
+
+/* Team/ Advisors section ends here */
+
+
+
+
+
+
+/* Contact section start here */
 .contact-info,
 .form-group {
   display: flex;
@@ -278,9 +422,15 @@ textarea:focus {
   border: 1px solid #fff;
 }
 
-/* Footer code  */
+/* Contact section ends here */
+
+
+
+
+
+/* Footer Section code starts here  */
 .footer {
-/*   display: grid;
+  /*   display: grid;
   grid-template-columns: 3fr 5fr 3fr; */
   padding: 50px 0px 0px 0px;
   border-top: 2px solid #69798c;
@@ -302,96 +452,17 @@ textarea:focus {
   line-height: 1.2;
 }
 
-/* our services  */
-.services {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin: 50px 0;
-}
-
-.services .service {
-  width: 100%;
-  height: 810px;
-  background-color: white;
-  border-radius: 25px;
-  padding: 20px;
-  text-align: center;
-}
-
-.services .service img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.services .service .service-body {
-  margin-top: 10px;
-}
-
-.services .service .service-body h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #f66d1d;
-}
-
-.services .service .service-body p {
-  font-size: 1.2rem;
-  color: #69798c;
-}
-
-.customer {
-  margin-left: 25px;
-  color: bisque;
-}
+/* Footer Section code ends here  */
 
 
-/* Team Members */
-#team {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  margin: 50px 0;
-}
 
-#team .card {
-  width: 100%;
-  height: 550px;
-  background-color: #222323;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-}
 
-#team .card img {
-  width: 100%;
-}
 
-#team .card .card-body {
-  margin-top: 20px;
-}
 
-#team .card .card-body h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #f66d1d;
-}
-
-#team .card .card-body p {
-  font-size: 1.2rem;
-  color: #ffffff;
-}
-
-#team i {
-  font-size: 1.5rem;
-  color: #008fd4;
-  margin: 0 10px;
-}
-
-/* Footer css end here */
-
-/* media query */
+/* Media query starts here */
 @media screen and (max-width: 1200px) {
-  .logo {
+
+  /* .logo {
     margin-right: 10%;
   }
 
@@ -402,18 +473,97 @@ textarea:focus {
   .container {
     margin: 0 80px;
   }
-}
+} */
+  .about {
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 992px) {
-  .container {
-    margin: 0 50px;
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .list p {
+    width: 100%;
+  }
+
+  .contact-info,
+  .form-group {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info input,
+  textarea {
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer img {
+    margin-bottom: 20px;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 992px) {
+
+  /* .container {
+    margin: 0 50px;
+  } */
+  .about {
+    flex-direction: column;
+  }
+
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-info,
+  .form-group {
+    flex-direction: row;
+  }
+
+  .contact-info {
+    margin-bottom: 0;
+  }
+
+  .contact-info input,
+  textarea {
+    width: 380px;
+  }
+}
+
+/* 768: Media query for 768px starts here */
+@media screen and (max-width: 768px) {
+
   .container {
     margin: 0;
     padding: 0 40px;
+  }
+
+  .logo img {
+    text-align: center;
+    /* margin: 0 auto; */
   }
 
   .header {
@@ -433,10 +583,6 @@ textarea:focus {
     margin: 10px 0;
   }
 
-  .logo {
-    margin-left: 20%;
-  }
-
   .hero {
     flex-direction: column;
     justify-content: center;
@@ -454,9 +600,15 @@ textarea:focus {
     padding: 20px 0;
   }
 
+  .ceo {
+    width: 100%;
+    margin: 0;
+  }
+
   .hero .right {
     width: 100%;
     padding: 0;
+    margin-top: 35px;
   }
 
   .about {
@@ -466,18 +618,7 @@ textarea:focus {
   }
 
   .about img {
-    width: 100%;
-  }
-
-  .support {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .support img {
-    width: 100%;
-    margin-left: 0;
+    width: 700px;
   }
 
   .list p:hover::after {
@@ -486,7 +627,7 @@ textarea:focus {
 
   #team {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .contact-info,
@@ -495,13 +636,13 @@ textarea:focus {
     justify-content: center;
   }
 
-  .contact-info {
-    margin-bottom: 30px;
-  }
-
   .contact-info input,
   textarea {
-    width: 250px;
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
   }
 
   .form {
@@ -511,7 +652,6 @@ textarea:focus {
 
   .footer {
     grid-template-columns: 1fr;
-
     gap: 20px;
   }
 
@@ -519,3 +659,69 @@ textarea:focus {
     margin-bottom: 20px;
   }
 }
+
+/* 768: Media query for 768px ends here */
+
+
+
+/* 576: Media query for 576px starts here */
+@media screen and (max-width: 576px) {
+
+  .container {
+    margin: 0;
+    padding: 0 25px;
+  }
+
+  .header {
+    padding: 20px 0;
+  }
+
+  .hero .left h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero .right {
+    width: 100%;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  #team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .card-body {
+    height: 50px;
+  } 
+
+  #team .card .card-body i {
+    margin-top: 50px;
+  }*/
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info,
+  .form-group {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info input,
+  textarea {
+    width: 100%;
+  }
+}
+
+/* 576: Media query for 576px ends here */
+
+/* Media query ends here */
+
+/* Author: Sorowar Mahabub, WB221035 */
